@@ -1,0 +1,62 @@
+.verticalcenter
+{  
+    height: 60%;  
+}
+
+.extension{
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+}
+.gollum{
+    margin-left: 20%;
+    border-radius: 50px !important;
+}
+
+.wanted{
+    position: relative;
+}
+.wanted img{
+    opacity: 0.5;
+    width:100%;
+    height:65%;
+}
+.wanted .coins{
+    position: absolute;
+    top:5%;
+    left: 10%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    opacity: 0.9;
+    z-index: 1;
+    width: 80%;    
+}
+
+.wanted .coins .reward{
+ text-align: center;
+ padding: 5% 15%;
+ font-weight: bold;
+
+}
+.wanted .gandalf{
+    position: absolute;
+    top:42%;
+    left:12%;
+    color:whitesmoke;
+    font-size: 50px;
+}
+.wanted:hover .coins{
+    visibility: hidden;
+
+}
+.wanted:hover img{
+    opacity: 1;
+    
+}
+.wanted:hover .gandalf
+{position: absolute;
+    top: 45%;
+    left:33%;
+    color:whitesmoke;
+    font-size: 20px;
+}
+
